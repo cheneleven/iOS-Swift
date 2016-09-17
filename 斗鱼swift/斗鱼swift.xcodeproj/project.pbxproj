@@ -12,6 +12,11 @@
 		9A02625C1D8D5BB20002673D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A02625B1D8D5BB20002673D /* Assets.xcassets */; };
 		9A02625F1D8D5BB20002673D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A02625D1D8D5BB20002673D /* LaunchScreen.storyboard */; };
 		9A02626A1D8D5BB20002673D /* __swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0262691D8D5BB20002673D /* __swiftUITests.swift */; };
+		9A02627D1D8D74E10002673D /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A02627B1D8D74E10002673D /* Home.storyboard */; };
+		9A02627F1D8D74F30002673D /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A02627E1D8D74F30002673D /* Live.storyboard */; };
+		9A0262821D8D750E0002673D /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0262801D8D750E0002673D /* Follow.storyboard */; };
+		9A0262841D8D75240002673D /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0262831D8D75240002673D /* Profile.storyboard */; };
+		9A0262861D8D75FB0002673D /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0262851D8D75FB0002673D /* MainVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,11 @@
 		9A0262651D8D5BB20002673D /* 斗鱼swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "斗鱼swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0262691D8D5BB20002673D /* __swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __swiftUITests.swift; sourceTree = "<group>"; };
 		9A02626B1D8D5BB20002673D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A02627C1D8D74E10002673D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "斗鱼swift/Base.lproj/Home.storyboard"; sourceTree = SOURCE_ROOT; };
+		9A02627E1D8D74F30002673D /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Live.storyboard; path = ../Main/Live.storyboard; sourceTree = "<group>"; };
+		9A0262811D8D750E0002673D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "斗鱼swift/Base.lproj/Follow.storyboard"; sourceTree = SOURCE_ROOT; };
+		9A0262831D8D75240002673D /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Profile.storyboard; path = ../Main/Profile.storyboard; sourceTree = "<group>"; };
+		9A0262851D8D75FB0002673D /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +87,6 @@
 			children = (
 				9A0262741D8D6A960002673D /* Classes */,
 				9A0262541D8D5BB20002673D /* AppDelegate.swift */,
-				9A0262581D8D5BB20002673D /* Main.storyboard */,
 				9A02625B1D8D5BB20002673D /* Assets.xcassets */,
 				9A02625D1D8D5BB20002673D /* LaunchScreen.storyboard */,
 				9A0262601D8D5BB20002673D /* Info.plist */,
@@ -110,6 +119,7 @@
 		9A0262751D8D6A960002673D /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				9A0262801D8D750E0002673D /* Follow.storyboard */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -117,6 +127,7 @@
 		9A0262761D8D6A960002673D /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				9A02627B1D8D74E10002673D /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -124,6 +135,7 @@
 		9A0262771D8D6A960002673D /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				9A02627E1D8D74F30002673D /* Live.storyboard */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -131,6 +143,8 @@
 		9A0262781D8D6A960002673D /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				9A0262581D8D5BB20002673D /* Main.storyboard */,
+				9A0262851D8D75FB0002673D /* MainVC.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -138,6 +152,7 @@
 		9A0262791D8D6A960002673D /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				9A0262831D8D75240002673D /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -233,6 +248,10 @@
 				9A02625F1D8D5BB20002673D /* LaunchScreen.storyboard in Resources */,
 				9A02625C1D8D5BB20002673D /* Assets.xcassets in Resources */,
 				9A02625A1D8D5BB20002673D /* Main.storyboard in Resources */,
+				9A02627F1D8D74F30002673D /* Live.storyboard in Resources */,
+				9A02627D1D8D74E10002673D /* Home.storyboard in Resources */,
+				9A0262841D8D75240002673D /* Profile.storyboard in Resources */,
+				9A0262821D8D750E0002673D /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A0262551D8D5BB20002673D /* AppDelegate.swift in Sources */,
+				9A0262861D8D75FB0002673D /* MainVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +299,7 @@
 				9A0262591D8D5BB20002673D /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		9A02625D1D8D5BB20002673D /* LaunchScreen.storyboard */ = {
@@ -287,6 +308,24 @@
 				9A02625E1D8D5BB20002673D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9A02627B1D8D74E10002673D /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A02627C1D8D74E10002673D /* Base */,
+			);
+			name = Home.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		9A0262801D8D750E0002673D /* Follow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A0262811D8D750E0002673D /* Base */,
+			);
+			name = Follow.storyboard;
+			path = ../Main;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -379,7 +418,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = "斗鱼swift/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sec1999.--swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -392,7 +431,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = "斗鱼swift/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sec1999.--swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
